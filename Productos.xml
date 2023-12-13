@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Productos>
+  <Producto>
+    <Codigo>CON2172</Codigo>
+    <Nombre>ttt</Nombre>
+    <Descripcion>ttt</Descripcion>
+    <Precio>5555555</Precio>
+    <Categoria>Consolas</Categoria>
+    <Marca>qweqwe</Marca>
+    <Modelo>qweqwe</Modelo>
+  </Producto>
+  <Producto>
+    <Codigo>CON4961</Codigo>
+    <Nombre>qweqwe</Nombre>
+    <Descripcion>qweqwe</Descripcion>
+    <Precio>12</Precio>
+    <Categoria>Consolas</Categoria>
+    <Marca>qweqwe</Marca>
+    <Modelo>qweqwe</Modelo>
+  </Producto>
+  <Producto>
+    <Codigo>CON1669</Codigo>
+    <Nombre>qweqwe</Nombre>
+    <Descripcion>qweqwe</Descripcion>
+    <Precio>12</Precio>
+    <Categoria>Consolas</Categoria>
+    <Marca>qweqwe</Marca>
+    <Modelo>qweqwe</Modelo>
+  </Producto>
+</Productos>

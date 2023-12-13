@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background: url('https://media4.giphy.com/media/sS6LFBPvSd7IMyafql/giphy.gif?cid=ecf05e47fqka19kpgf5otu4k7a9m49xaktn4p1bo0njr053k&rid=giphy.gif&ct=g') no-repeat center center fixed; 
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-right: 30%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+h1 {
+    color: #FF4500; 
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #8B0000; 
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 60%;
+}
+
+form {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    max-width: 150%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+ .mostrarProducto, .borrarProducto, .mostrarCliente, .borrarCliente {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #8B0000;
+    background-color: #8B0000;
+    color: #fff;
+    cursor: pointer;
+}
+
+ .mostrarProducto:hover, .borrarProducto:hover, .mostrarCliente:hover, .borrarCliente:hover {
+    background-color: #a52a2a;
+}
+
+.producto {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.producto h2 {
+    color: #5cb85c;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.producto span {
+    font-weight: bold;
+    color: #333;
+}
+
+.detalle-producto {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #5cb85c;
+}
+
+.codigo-producto {
+    color: #FF4500;
+    font-weight: bold;
+}
+
+.precio-producto {
+    color: #8B0000;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.CampoBorrar{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #8B0000;
+    background-color: white;
+    color: black;
+
+}
+
+.cliente {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.cliente:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.cliente h2 {
+    color: #5cb85c;
+    margin-bottom: 10px;
+}
+
+.cliente p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.cliente span {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.detalle-cliente {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #5cb85c;
+}
+
+
+.dni-cliente {
+    color: #FF4500;
+    font-weight: bold;
+}
+

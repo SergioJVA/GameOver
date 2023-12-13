@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background: url('https://media4.giphy.com/media/sS6LFBPvSd7IMyafql/giphy.gif?cid=ecf05e47fqka19kpgf5otu4k7a9m49xaktn4p1bo0njr053k&ep=v1_gifs_search&rid=giphy.gif&ct=g') no-repeat center center fixed; 
+    background-size: cover;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+h1 {
+    color: #FF4500; 
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #8B0000; 
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 60%;
+}
+
+
+form {
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    max-width: 150%;
+    margin: 0 auto;
+   
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="textarea"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #8B0000;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: #8B0000;
+    cursor: pointer;
+}
+
+input[type="submit"]:last-child {
+    margin-bottom: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #8b000069;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Clientes>
+  <Cliente>
+    <Dni>789654123A</Dni>
+    <Nombre>qq</Nombre>
+    <Apellido>qq</Apellido>
+    <Direccion>mi casa</Direccion>
+    <Correo>asd@gmail.com</Correo>
+    <Telefono>7896564123</Telefono>
+  </Cliente>
+</Clientes>
